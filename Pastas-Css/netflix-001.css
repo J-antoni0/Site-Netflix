@@ -30,7 +30,6 @@
     background-image: url(../Imagens/netflix-logo-000.png);
     width: 250px;
     height: 100px;
-    z-index: 20;
  }
 
  span#sombra-000 {
@@ -38,5 +37,4 @@
     width: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.623);
-    z-index: 1;
  }

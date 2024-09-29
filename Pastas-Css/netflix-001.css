@@ -22,18 +22,21 @@
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: scroll;
-      position: relative;
       z-index: 1;
       height: 100%;
       width: 100%;
    }
    
    figure#figure-001 {
-      background-image: url(../Imagens/netflix-logo-000.png);
+      background-image: url(../Imagens/netflix-logo-001.png);
+      background-repeat: no-repeat;
+      background-position: center center;
       width: 250px;
-      height: 100px;
+      height: 150px;
       position: absolute;  
-      z-index: 10;
+      top: -30px;
+      left: 100px;
+      z-index: 3;
    }
    
    span#sombra-000 {

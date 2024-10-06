@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
 
  html , body {
@@ -19,6 +20,7 @@
       position: relative;
       height: 700px;
       width: 100%;
+      justify-content: center;
    }
    
    figure#figure-000 {
@@ -36,11 +38,12 @@
       background-image: url(../Imagens/netflix-logo-001.png);
       background-repeat: no-repeat;
       background-position: center center;
-      width: 250px;
-      height: 150px;
+      background-size: 160px;
+      width: 150px;
+      height: 100px;
       position: absolute;  
-      top: -30px;
-      left: 100px;
+      top: -5px;
+      left: 150px;
       z-index: 3;
    }
    
@@ -53,16 +56,16 @@
    -moz-appearance: none; /* Para navegadores Mozilla como Firefox */ 
    border: 1px solid #505050; 
    background-color: #0F0F10; 
-   color: #C2C2C2; 
+   color: #cecece; 
    border-radius: 4px; 
    width: 140px; 
    height: 32px; 
    text-align: center; 
-   font-weight: bold; 
-   font-size: 15px;
+   font-weight: normal; 
+   font-size: 14px;
    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6"%3E%3Cpath fill="white" d="M0 0l5 6 5-6z"/%3E%3C/svg%3E'); 
    background-size: 7px; 
-   background-position: right 17px top 50%; 
+   background-position: right 15px top 55%; 
    background-repeat: no-repeat; 
    z-index: 4;
    }
@@ -70,7 +73,7 @@
    select#idioma:focus {
       outline: 2px solid white;
    }
-  
+
    option#opções-idioma {
       background-color: white;
       color: black;
@@ -86,9 +89,15 @@
       border-radius: 4px;
       height: 32px;
       width: 70px;
-      letter-spacing: 0.5px;
-      font-weight: bolder;
-      font-size: 13px;
+      font-weight: normal;
+      font-size: 14px;
+      transition-duration: 0.5s;
+   }
+
+   input#entrar:hover {
+      cursor: pointer;
+      background-color: #C21B17;
+      transition-duration: 0.5s;
    }
 
    span#sombra-000 {
@@ -98,4 +107,38 @@
       z-index: 2;
       background-color: rgba(0, 0, 0, 0.623);
       box-shadow: inset 0px 0px 40px 30px rgba(0, 0, 0, 0.671);
+   }
+
+   /* configurações dos text */
+
+   #text001 {
+      position: absolute;
+      top: 170px;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      font-size: 60px;
+      z-index: 5;
+   }
+
+   #text002 {
+      color: white;
+      top: 400px;
+      position: absolute;
+      z-index: 6;
+      font-size: 21px;
+   }
+
+   #text003 {
+      position: absolute;
+      top: 460px;
+      color: white;
+      z-index: 7;
+   }
+
+   /* fim text´s da section primaria */
+
+   div#caixas-de-contatos {
+      position: absolute;
+      z-index: 8;
    }

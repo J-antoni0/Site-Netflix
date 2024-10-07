@@ -55,7 +55,7 @@
    -webkit-appearance: none; /* Para navegadores WebKit como Safari e Chrome */ 
    -moz-appearance: none; /* Para navegadores Mozilla como Firefox */ 
    border: 1px solid #505050; 
-   background-color: #0F0F10; 
+   background-color: #0f0f10cc; 
    color: #cecece; 
    border-radius: 4px; 
    width: 140px; 
@@ -141,4 +141,35 @@
    div#caixas-de-contatos {
       position: absolute;
       z-index: 8;
+      bottom: 145px;
+   }
+
+   #caixa-email {
+      width: 400px;
+      height: 55px;
+      border-radius: 4px;
+      border: 1px solid #505050;
+      background-color: #0f0f10cc;
+      font-weight: normal;
+      font-size: 15px;
+      padding-left: 15px;
+   }
+
+   #caixa-vamosla {
+      appearance: none; /* Remove a aparência padrão do select em diferentes navegadores */ 
+      -webkit-appearance: none; /* Para navegadores WebKit como Safari e Chrome */ 
+      -moz-appearance: none; /* Para navegadores Mozilla como Firefox */ 
+      width: 180px;
+      height: 55px;
+      border-radius: 4px;
+      background-color: #E50814;
+      color: white;
+      font-size: 23px;
+      transition-duration: 0.5s;
+   }
+
+   #caixa-vamosla:hover {
+      cursor: pointer;
+      background-color: #C21B17; 
+      transition-duration: 0.5s;
    }

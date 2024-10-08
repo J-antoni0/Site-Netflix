@@ -74,9 +74,9 @@
       outline: 2px solid white;
    }
 
-   option#opções-idioma {
-      background-color: white;
-      color: black;
+   option {
+    background-color: white;  
+    color: black;
    }
    
    input#entrar {
@@ -151,11 +151,21 @@
       border: 1px solid #505050;
       background-color: #0f0f10cc;
       font-weight: normal;
-      font-size: 15px;
+      font-size: 16px;
       padding-left: 15px;
    }
 
+   #caixa-email:focus {
+      border: 1px solid #505050;
+      outline: 2px solid white;
+      outline-offset: 2px;
+      color: white;  
+      font-size: 13px;
+      }
+
    #caixa-vamosla {
+      position: relative;
+      left: 5px;
       appearance: none; /* Remove a aparência padrão do select em diferentes navegadores */ 
       -webkit-appearance: none; /* Para navegadores WebKit como Safari e Chrome */ 
       -moz-appearance: none; /* Para navegadores Mozilla como Firefox */ 

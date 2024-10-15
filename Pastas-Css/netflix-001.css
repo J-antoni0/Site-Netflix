@@ -144,6 +144,20 @@
       bottom: 145px;
    }
 
+   label#cx-email {
+      position: absolute;
+      top: 12px;
+      left: 16px;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 16px;
+      pointer-events: none;
+      transition: 0.3s ease all;
+   }
+
+   label#cx-email {
+      cursor: text;
+   }
+
    #caixa-email {
       width: 400px;
       height: 55px;
@@ -155,13 +169,14 @@
       padding-left: 15px;
    }
 
-   #caixa-email:focus {
+   #caixa-email:focus  {
       border: 1px solid #505050;
       outline: 2px solid white;
       outline-offset: 2px;
       color: white;  
       font-size: 13px;
-      }
+   }
+
 
    #caixa-vamosla {
       position: relative;

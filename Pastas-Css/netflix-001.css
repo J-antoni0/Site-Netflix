@@ -113,7 +113,7 @@
 
    #text001 {
       position: absolute;
-      top: 170px;
+      top: 195px;
       font-weight: bold;
       color: white;
       text-align: center;
@@ -123,7 +123,7 @@
 
    #text002 {
       color: white;
-      top: 400px;
+      top: 355px;
       position: absolute;
       z-index: 6;
       font-size: 21px;
@@ -131,33 +131,23 @@
 
    #text003 {
       position: absolute;
-      top: 460px;
+      top: 410px;
       color: white;
       z-index: 7;
    }
 
    /* fim text´s da section primaria */
 
+   /* Inicio dos inputs finais da section primaria */
    div#caixas-de-contatos {
+      width: 650px;
       position: absolute;
+      top: 450px;
       z-index: 8;
       bottom: 145px;
+      text-align: center;
    }
-
-   label#cx-email {
-      position: absolute;
-      top: 12px;
-      left: 16px;
-      color: rgba(255, 255, 255, 0.7);
-      font-size: 16px;
-      pointer-events: none;
-      transition: 0.3s ease all;
-   }
-
-   label#cx-email {
-      cursor: text;
-   }
-
+   
    #caixa-email {
       width: 400px;
       height: 55px;
@@ -167,8 +157,8 @@
       font-weight: normal;
       font-size: 16px;
       padding-left: 15px;
-   }
-
+   }   
+   
    #caixa-email:focus  {
       border: 1px solid #505050;
       outline: 2px solid white;
@@ -176,16 +166,29 @@
       color: white;  
       font-size: 13px;
    }
-
-
+   
+   label#cx-email {
+      position: absolute;
+      top: 20px;
+      left: 40px;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 16px;
+      pointer-events: none;
+      transition: 0.3s ease all;
+      cursor: text;
+   }   
+   
+      #caixa-email:focus ~ label#cx-email {
+         font-size: 12px;
+         top: 10px;
+      }
+   
    #caixa-vamosla {
       position: relative;
-      left: 5px;
-      appearance: none; /* Remove a aparência padrão do select em diferentes navegadores */ 
-      -webkit-appearance: none; /* Para navegadores WebKit como Safari e Chrome */ 
-      -moz-appearance: none; /* Para navegadores Mozilla como Firefox */ 
+      left: 4px;
+      top: 2px;
       width: 180px;
-      height: 55px;
+      height: 57px;
       border-radius: 4px;
       background-color: #E50814;
       color: white;
@@ -198,3 +201,5 @@
       background-color: #C21B17; 
       transition-duration: 0.5s;
    }
+
+   /* Fim dos inputs finais da section primaria */

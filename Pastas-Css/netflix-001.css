@@ -178,11 +178,21 @@
       cursor: text;
    }   
    
-      #caixa-email:focus ~ label#cx-email {
-         font-size: 12px;
-         top: 10px;
-      }
+   #caixa-email:focus ~ label#cx-email {
+      font-size: 12px;
+      top: 10px;
+   }
    
+   p#aviso-cx-email {
+      position: absolute;
+      color: #EB3942;
+      z-index: 9;
+      font-size: 13px;
+      top: 515px;
+      left: 420px;
+      display: none;
+   }
+
    #caixa-vamosla {
       position: relative;
       left: 4px;

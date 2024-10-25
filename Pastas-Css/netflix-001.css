@@ -214,4 +214,15 @@
 
    /* Fim dos inputs finais da section primaria */
 
-   
+   /* efeito arco iris */
+
+   section#section-001 {
+      position: relative;
+      top: -55px;
+      height: 200px;
+      width: 100%;
+      z-index: 10;
+      border-top-left-radius: 55% 30%;
+      border-top-right-radius: 55% 30%;
+      background-color: black;
+   }

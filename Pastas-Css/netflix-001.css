@@ -217,24 +217,35 @@
    /* efeito arco iris */
 
    div#arco-001 {
-      overflow: hidden;
       position: relative;
       top: -55px;
-      height: 200px;
+      height: 70px;
       width: 100%;
       z-index: 10;
-      border-top-left-radius: 55% 30%;
-      border-top-right-radius: 55% 30%;
+      border-top-left-radius: 55% 80%;
+      border-top-right-radius: 55% 80%;
       background: radial-gradient(circle , #E30B17, #E40914, #D8152C, #CE1B3F, #CD1B3F, #C22257, #BC2662, #9F235B, #7B1D47, #641A3B, #561733, #47142B, #210D16, #000000);
+
    }
 
    div#arco-001::before {
       content: '';
       position: absolute;
       top: 4px;
-      height: 200px;
+      height: 70px;
       width: 100%;
-      background-color: rgb(0, 0, 0);
-      border-top-left-radius: 55% 30%;
-      border-top-right-radius: 55% 30%;
+      background-color: black;
+      border-top-left-radius: 55% 80%;
+      border-top-right-radius: 55% 80%;
+   }
+
+   span#fundo-luminoso {
+      position: absolute;
+      top: 648px;
+      z-index: 11;
+      width: 100%;
+      height: 70px;
+      background: radial-gradient(circle at 50% -1030%, #141E48 55%, #000000 80%); 
+      border-top-left-radius: 55% 80%;
+      border-top-right-radius: 55% 80%;
    }

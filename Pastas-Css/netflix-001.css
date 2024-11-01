@@ -4,6 +4,7 @@
     margin: 0;
     border: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
  }
 
  html , body {
@@ -232,7 +233,7 @@
       content: '';
       position: absolute;
       top: 4px;
-      height: 70px;
+      height: 75px;
       width: 100%;
       background-color: black;
       border-top-left-radius: 55% 80%;
@@ -245,7 +246,14 @@
       z-index: 11;
       width: 100%;
       height: 70px;
-      background: radial-gradient(circle at 50% -1030%, #141E48 55%, #000000 80%); 
+      background: radial-gradient(circle at 50% -1070%, #141D46 65%, #000000 80%); 
       border-top-left-radius: 55% 80%;
       border-top-right-radius: 55% 80%;
+      box-shadow: inset 0px -17px 15px -7px rgba(0, 0, 0, 0.5);
+   }
+
+   section#section-001 {
+      width: 100%;
+      height: 130px;
+      background-color: aqua;
    }
